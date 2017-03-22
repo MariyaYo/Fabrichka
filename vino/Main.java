@@ -6,7 +6,7 @@ import vino.Bottle.BottleLine;
 
 public class Main {
 	public static void main(String[] args) {
-		People.AddTasksForToday();
+
 		ArrayList<People> workers = new ArrayList<>();
 		int j = 1;
 		for(int i =0; i < 25; i++){
@@ -28,4 +28,7 @@ public class Main {
 		};
 		t.start();
 	}
+	
+		
+	
 }
